@@ -9,7 +9,7 @@
 # Output:
 # 2
 
-# import math
-# n = int(input('Сколько машина проезжает за день км: '))
-# m = int(input('Сколько машина проезжает всего км: '))
-# print (math.ceil(m / n))
+import math
+n = int(input('Сколько машина проезжает за день км: '))
+m = int(input('Сколько машина проезжает всего км: '))
+print (math.ceil(m / n))
